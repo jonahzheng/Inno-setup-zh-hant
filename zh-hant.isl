@@ -35,7 +35,7 @@ LanguageCodePage=936
 
 [Messages]
 
-; *** 應用程序標題
+; *** 應用軟體標題
 SetupAppTitle=安裝
 SetupWindowTitle=安裝 - %1
 UninstallAppTitle=卸載
@@ -48,31 +48,31 @@ ErrorTitle=錯誤
 
 ; *** SetupLdr messages
 SetupLdrStartupMessage=現在將安裝 %1。您想要繼續嗎？
-LdrCannotCreateTemp=無法創建臨時文件。安裝程序已中止
-LdrCannotExecTemp=無法執行臨時目錄中的文件。安裝程序已中止
+LdrCannotCreateTemp=無法創建臨時文件。安裝軟體已中止
+LdrCannotExecTemp=無法執行臨時目錄中的文件。安裝軟體已中止
 HelpTextNote=
 
 ; *** 啟動錯誤消息
 LastErrorMessage=%1。%n%n錯誤 %2: %3
-SetupFileMissing=安裝目錄中缺少文件 %1。請修正這個問題或者獲取程序的新副本。
-SetupFileCorrupt=安裝文件已損壞。請獲取程序的新副本。
-SetupFileCorruptOrWrongVer=安裝文件已損壞，或是與這個安裝程序的版本不兼容。請修正這個問題或獲取新的程序副本。
+SetupFileMissing=安裝目錄中缺少文件 %1。請修正這個問題或者獲取軟體的新副本。
+SetupFileCorrupt=安裝文件已損壞。請獲取軟體的新副本。
+SetupFileCorruptOrWrongVer=安裝文件已損壞，或是與這個安裝軟體的版本不兼容。請修正這個問題或獲取新的軟體副本。
 InvalidParameter=無效的命令行參數：%n%n%1
-SetupAlreadyRunning=安裝程序正在運行。
-WindowsVersionNotSupported=此程序不支持當前計算機運行的 Windows 版本。
-WindowsServicePackRequired=此程序需要 %1 服務包 %2 或更高版本。
-NotOnThisPlatform=此程序不能在 %1 上運行。
-OnlyOnThisPlatform=此程序隻能在 %1 上運行。
-OnlyOnTheseArchitectures=此程序隻能在爲下列處理器結構設計的 Windows 版本中安裝：%n%n%1
-WinVersionTooLowError=此程序需要 %1 版本 %2 或更高。
-WinVersionTooHighError=此程序不能安裝於 %1 版本 %2 或更高。
-AdminPrivilegesRequired=在安裝此程序時您必須以管理員身份登錄。
-PowerUserPrivilegesRequired=在安裝此程序時您必須以管理員身份或有權限的用戶組身份登錄。
-SetupAppRunningError=安裝程序髮現 %1 當前正在運行。%n%n請先關閉正在運行的程序，然後點擊“確定”繼續，或點擊“取消”退出。
-UninstallAppRunningError=卸載程序髮現 %1 當前正在運行。%n%n請先關閉正在運行的程序，然後點擊“確定”繼續，或點擊“取消”退出。
+SetupAlreadyRunning=安裝軟體正在運行。
+WindowsVersionNotSupported=此軟體不支持當前計算機運行的 Windows 版本。
+WindowsServicePackRequired=此軟體需要 %1 服務包 %2 或更高版本。
+NotOnThisPlatform=此軟體不能在 %1 上運行。
+OnlyOnThisPlatform=此軟體隻能在 %1 上運行。
+OnlyOnTheseArchitectures=此軟體隻能在爲下列處理器結構設計的 Windows 版本中安裝：%n%n%1
+WinVersionTooLowError=此軟體需要 %1 版本 %2 或更高。
+WinVersionTooHighError=此軟體不能安裝於 %1 版本 %2 或更高。
+AdminPrivilegesRequired=在安裝此軟體時您必須以管理員身份登錄。
+PowerUserPrivilegesRequired=在安裝此軟體時您必須以管理員身份或有權限的用戶組身份登錄。
+SetupAppRunningError=安裝軟體髮現 %1 當前正在運行。%n%n請先關閉正在運行的軟體，然後點擊“確定”繼續，或點擊“取消”退出。
+UninstallAppRunningError=卸載軟體髮現 %1 當前正在運行。%n%n請先關閉正在運行的軟體，然後點擊“確定”繼續，或點擊“取消”退出。
 
 ; *** 啟動問題
-PrivilegesRequiredOverrideTitle=選擇安裝程序模式
+PrivilegesRequiredOverrideTitle=選擇安裝軟體模式
 PrivilegesRequiredOverrideInstruction=選擇安裝模式
 PrivilegesRequiredOverrideText1=%1 可以爲所有用戶安裝(需要管理員權限)，或僅爲您安裝。
 PrivilegesRequiredOverrideText2=%1 隻能爲您安裝，或爲所有用戶安裝(需要管理員權限)。
@@ -82,14 +82,14 @@ PrivilegesRequiredOverrideCurrentUser=隻爲我安裝(&M)
 PrivilegesRequiredOverrideCurrentUserRecommended=隻爲我安裝(&M) (建議選項)
 
 ; *** 其他錯誤
-ErrorCreatingDir=安裝程序無法創建目錄“%1”。
+ErrorCreatingDir=安裝軟體無法創建目錄“%1”。
 ErrorTooManyFilesInDir=無法在目錄“%1”中創建文件，因爲裡麵包含太多文件
 
-; *** 安裝程序公共消息
-ExitSetupTitle=退出安裝程序
-ExitSetupMessage=安裝程序尚未完成。如果現在退出，將不會安裝該程序。%n%n您之後可以再次運行安裝程序完成安裝。%n%n現在退出安裝程序嗎？
-AboutSetupMenuItem=關於安裝程序(&A)...
-AboutSetupTitle=關於安裝程序
+; *** 安裝軟體公共消息
+ExitSetupTitle=退出安裝軟體
+ExitSetupMessage=安裝軟體尚未完成。如果現在退出，將不會安裝該軟體。%n%n您之後可以再次運行安裝軟體完成安裝。%n%n現在退出安裝軟體嗎？
+AboutSetupMenuItem=關於安裝軟體(&A)...
+AboutSetupTitle=關於安裝軟體
 AboutSetupMessage=%1 版本 %2%n%3%n%n%1 主頁：%n%4
 AboutSetupNote=
 TranslatorNote=簡體中文翻譯由Kira(847320916@qq.com)維護。項目地址：https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation
@@ -114,7 +114,7 @@ SelectLanguageTitle=選擇安裝語言
 SelectLanguageLabel=選擇安裝時使用的語言。
 
 ; *** 公共向導文字
-ClickNext=點擊“下一步”繼續，或點擊“取消”退出安裝程序。
+ClickNext=點擊“下一步”繼續，或點擊“取消”退出安裝軟體。
 BeveledLabel=
 BrowseDialogTitle=瀏覽文件夾
 BrowseDialogLabel=在下麵的列表中選擇一個文件夾，然後點擊“確定”。
@@ -122,11 +122,11 @@ NewFolderName=新建文件夾
 
 ; *** “歡迎”向導頁
 WelcomeLabel1=歡迎使用 [name] 安裝向導
-WelcomeLabel2=現在將安裝 [name/ver] 到您的電腦中。%n%n建議您在繼續安裝前關閉所有其他應用程序。
+WelcomeLabel2=現在將安裝 [name/ver] 到您的電腦中。%n%n建議您在繼續安裝前關閉所有其他應用軟體。
 
 ; *** “密碼”向導頁
 WizardPassword=密碼
-PasswordLabel1=這個安裝程序有密碼保護。
+PasswordLabel1=這個安裝軟體有密碼保護。
 PasswordLabel3=請輸入密碼，然後點擊“下一步”繼續。密碼區分大小冩。
 PasswordEditLabel=密碼(&P)：
 IncorrectPassword=您輸入的密碼不正確，請重新輸入。
@@ -157,16 +157,16 @@ UserInfoNameRequired=您必須輸入用戶名。
 ; *** “選擇目標目錄”向導頁
 WizardSelectDir=選擇目標位置
 SelectDirDesc=您想將 [name] 安裝在哪裡？
-SelectDirLabel3=安裝程序將安裝 [name] 到下麵的文件夾中。
+SelectDirLabel3=安裝軟體將安裝 [name] 到下麵的文件夾中。
 SelectDirBrowseLabel=點擊“下一步”繼續。如果您想選擇其他文件夾，點擊“瀏覽”。
 DiskSpaceGBLabel=至少需要有 [gb] GB 的可用磁盤空間。
 DiskSpaceMBLabel=至少需要有 [mb] MB 的可用磁盤空間。
-CannotInstallToNetworkDrive=安裝程序無法安裝到一個網絡驅動器。
-CannotInstallToUNCPath=安裝程序無法安裝到一個 UNC 路徑。
+CannotInstallToNetworkDrive=安裝軟體無法安裝到一個網絡驅動器。
+CannotInstallToUNCPath=安裝軟體無法安裝到一個 UNC 路徑。
 InvalidPath=您必須輸入一個帶驅動器捲標的完整路徑，例如：%n%nC:\APP%n%n或UNC路徑：%n%n\\server\share
 InvalidDrive=您選定的驅動器或 UNC 共享不存在或不能訪問。請選擇其他位置。
 DiskSpaceWarningTitle=磁盤空間不足
-DiskSpaceWarning=安裝程序至少需要 %1 KB 的可用空間才能安裝，但選定驅動器隻有 %2 KB 的可用空間。%n%n您一定要繼續嗎？
+DiskSpaceWarning=安裝軟體至少需要 %1 KB 的可用空間才能安裝，但選定驅動器隻有 %2 KB 的可用空間。%n%n您一定要繼續嗎？
 DirNameTooLong=文件夾名稱或路徑太長。
 InvalidDirName=文件夾名稱無效。
 BadDirName32=文件夾名稱不能包含下列任何字符：%n%n%1
@@ -177,14 +177,14 @@ DirDoesntExist=文件夾：%n%n%1%n%n不存在。您想要創建此文件夾嗎�
 
 ; *** “選擇組件”向導頁
 WizardSelectComponents=選擇組件
-SelectComponentsDesc=您想安裝哪些程序組件？
+SelectComponentsDesc=您想安裝哪些軟體組件？
 SelectComponentsLabel2=選中您想安裝的組件；取消您不想安裝的組件。然後點擊“下一步”繼續。
 FullInstallation=完全安裝
 ; if possible don''t translate ''Compact'' as ''Minimal'' (I mean ''Minimal'' in your language)
 CompactInstallation=簡潔安裝
 CustomInstallation=自定義安裝
 NoUninstallWarningTitle=組件已存在
-NoUninstallWarning=安裝程序檢測到下列組件已安裝在您的電腦中：%n%n%1%n%n取消選中這些組件不會卸載它們。%n%n確定要繼續嗎？
+NoUninstallWarning=安裝軟體檢測到下列組件已安裝在您的電腦中：%n%n%1%n%n取消選中這些組件不會卸載它們。%n%n確定要繼續嗎？
 ComponentSize1=%1 KB
 ComponentSize2=%1 MB
 ComponentsDiskSpaceGBLabel=當前選擇的組件需要至少 [gb] GB 的磁盤空間。
@@ -192,13 +192,13 @@ ComponentsDiskSpaceMBLabel=當前選擇的組件需要至少 [mb] MB 的磁盤�
 
 ; *** “選擇附加任務”向導頁
 WizardSelectTasks=選擇附加任務
-SelectTasksDesc=您想要安裝程序執行哪些附加任務？
-SelectTasksLabel2=選擇您想要安裝程序在安裝 [name] 時執行的附加任務，然後點擊“下一步”。
+SelectTasksDesc=您想要安裝軟體執行哪些附加任務？
+SelectTasksLabel2=選擇您想要安裝軟體在安裝 [name] 時執行的附加任務，然後點擊“下一步”。
 
 ; *** “選擇開始菜單文件夾”向導頁
 WizardSelectProgramGroup=選擇開始菜單文件夾
-SelectStartMenuFolderDesc=安裝程序應該在哪裡放置程序的快捷方式？
-SelectStartMenuFolderLabel3=安裝程序將在下列“開始”菜單文件夾中創建程序的快捷方式。
+SelectStartMenuFolderDesc=安裝軟體應該在哪裡放置軟體的快捷方式？
+SelectStartMenuFolderLabel3=安裝軟體將在下列“開始”菜單文件夾中創建軟體的快捷方式。
 SelectStartMenuFolderBrowseLabel=點擊“下一步”繼續。如果您想選擇其他文件夾，點擊“瀏覽”。
 MustEnterGroupName=您必須輸入一個文件夾名。
 GroupNameTooLong=文件夾名或路徑太長。
@@ -208,9 +208,9 @@ NoProgramGroupCheck2=不創建開始菜單文件夾(&D)
 
 ; *** “準備安裝”向導頁
 WizardReady=準備安裝
-ReadyLabel1=安裝程序準備就緒，現在可以開始安裝 [name] 到您的電腦。
-ReadyLabel2a=點擊“安裝”繼續此安裝程序。如果您想重新考慮或修改任何設置，點擊“上一步”。
-ReadyLabel2b=點擊“安裝”繼續此安裝程序。
+ReadyLabel1=安裝軟體準備就緒，現在可以開始安裝 [name] 到您的電腦。
+ReadyLabel2a=點擊“安裝”繼續此安裝軟體。如果您想重新考慮或修改任何設置，點擊“上一步”。
+ReadyLabel2b=點擊“安裝”繼續此安裝軟體。
 ReadyMemoUserInfo=用戶信息：
 ReadyMemoDir=目標位置：
 ReadyMemoType=安裝類型：
@@ -232,27 +232,27 @@ ErrorFileSize=文件大小錯誤：預期 %1，實際 %2
 
 ; *** “正在準備安裝”向導頁
 WizardPreparing=正在準備安裝
-PreparingDesc=安裝程序正在準備安裝 [name] 到您的電腦。
-PreviousInstallNotCompleted=先前的程序安裝或卸載未完成，您需要重啟您的電腦以完成。%n%n在重啟電腦後，再次運行安裝程序以完成 [name] 的安裝。
-CannotContinue=安裝程序不能繼續。請點擊“取消”退出。
-ApplicationsFound=以下應用程序正在使用將由安裝程序更新的文件。建議您允許安裝程序自動關閉這些應用程序。
-ApplicationsFound2=以下應用程序正在使用將由安裝程序更新的文件。建議您允許安裝程序自動關閉這些應用程序。安裝完成後，安裝程序將嚐試重新啟動這些應用程序。
-CloseApplications=自動關閉應用程序(&A)
-DontCloseApplications=不要關閉應用程序(&D)
-ErrorCloseApplications=安裝程序無法自動關閉所有應用程序。建議您在繼續之前，關閉所有在使用需要由安裝程序更新的文件的應用程序。
-PrepareToInstallNeedsRestart=安裝程序必須重啟您的計算機。計算機重啟後，請再次運行安裝程序以完成 [name] 的安裝。%n%n是否立即重新啟動？
+PreparingDesc=安裝軟體正在準備安裝 [name] 到您的電腦。
+PreviousInstallNotCompleted=先前的軟體安裝或卸載未完成，您需要重啟您的電腦以完成。%n%n在重啟電腦後，再次運行安裝軟體以完成 [name] 的安裝。
+CannotContinue=安裝軟體不能繼續。請點擊“取消”退出。
+ApplicationsFound=以下應用軟體正在使用將由安裝軟體更新的文件。建議您允許安裝軟體自動關閉這些應用軟體。
+ApplicationsFound2=以下應用軟體正在使用將由安裝軟體更新的文件。建議您允許安裝軟體自動關閉這些應用軟體。安裝完成後，安裝軟體將嚐試重新啟動這些應用軟體。
+CloseApplications=自動關閉應用軟體(&A)
+DontCloseApplications=不要關閉應用軟體(&D)
+ErrorCloseApplications=安裝軟體無法自動關閉所有應用軟體。建議您在繼續之前，關閉所有在使用需要由安裝軟體更新的文件的應用軟體。
+PrepareToInstallNeedsRestart=安裝軟體必須重啟您的計算機。計算機重啟後，請再次運行安裝軟體以完成 [name] 的安裝。%n%n是否立即重新啟動？
 
 ; *** “正在安裝”向導頁
 WizardInstalling=正在安裝
-InstallingLabel=安裝程序正在安裝 [name] 到您的電腦，請稍候。
+InstallingLabel=安裝軟體正在安裝 [name] 到您的電腦，請稍候。
 
 ; *** “安裝完成”向導頁
 FinishedHeadingLabel=[name] 安裝完成
-FinishedLabelNoIcons=安裝程序已在您的電腦中安裝了 [name]。
-FinishedLabel=安裝程序已在您的電腦中安裝了 [name]。您可以通過已安裝的快捷方式運行此應用程序。
-ClickFinish=點擊“完成”退出安裝程序。
-FinishedRestartLabel=爲完成 [name] 的安裝，安裝程序必須重新啟動您的電腦。要立即重啟嗎？
-FinishedRestartMessage=爲完成 [name] 的安裝，安裝程序必須重新啟動您的電腦。%n%n要立即重啟嗎？
+FinishedLabelNoIcons=安裝軟體已在您的電腦中安裝了 [name]。
+FinishedLabel=安裝軟體已在您的電腦中安裝了 [name]。您可以通過已安裝的快捷方式運行此應用軟體。
+ClickFinish=點擊“完成”退出安裝軟體。
+FinishedRestartLabel=爲完成 [name] 的安裝，安裝軟體必須重新啟動您的電腦。要立即重啟嗎？
+FinishedRestartMessage=爲完成 [name] 的安裝，安裝軟體必須重新啟動您的電腦。%n%n要立即重啟嗎？
 ShowReadmeCheck=是，我想查閱自述文件
 YesRadio=是，立即重啟電腦(&Y)
 NoRadio=否，稍後重啟電腦(&N)
@@ -261,22 +261,22 @@ RunEntryExec=運行 %1
 ; used for example as ''View Readme.txt''
 RunEntryShellExec=查閱 %1
 
-; *** “安裝程序需要下一張磁盤”提示
-ChangeDiskTitle=安裝程序需要下一張磁盤
+; *** “安裝軟體需要下一張磁盤”提示
+ChangeDiskTitle=安裝軟體需要下一張磁盤
 SelectDiskLabel2=請插入磁盤 %1 並點擊“確定”。%n%n如果這個磁盤中的文件可以在下列文件夾之外的文件夾中找到，請輸入正確的路徑或點擊“瀏覽”。
 PathLabel=路徑(&P)：
 FileNotInDir2=“%2”中找不到文件“%1”。請插入正確的磁盤或選擇其他文件夾。
 SelectDirectoryLabel=請指定下一張磁盤的位置。
 
 ; *** 安裝狀態消息
-SetupAborted=安裝程序未完成安裝。%n%n請修正這個問題並重新運行安裝程序。
+SetupAborted=安裝軟體未完成安裝。%n%n請修正這個問題並重新運行安裝軟體。
 AbortRetryIgnoreSelectAction=選擇操作
 AbortRetryIgnoreRetry=重試(&T)
 AbortRetryIgnoreIgnore=忽略錯誤並繼續(&I)
-AbortRetryIgnoreCancel=關閉安裝程序
+AbortRetryIgnoreCancel=關閉安裝軟體
 
 ; *** 安裝狀態消息
-StatusClosingApplications=正在關閉應用程序...
+StatusClosingApplications=正在關閉應用軟體...
 StatusCreateDirs=正在創建目錄...
 StatusExtractFiles=正在解壓縮文件...
 StatusCreateIcons=正在創建快捷方式...
@@ -285,7 +285,7 @@ StatusCreateRegistryEntries=正在創建注冊表條目...
 StatusRegisterFiles=正在注冊文件...
 StatusSavingUninstall=正在保存卸載信息...
 StatusRunProgram=正在完成安裝...
-StatusRestartingApplications=正在重啟應用程序...
+StatusRestartingApplications=正在重啟應用軟體...
 StatusRollback=正在撤銷更改...
 
 ; *** 其他錯誤
@@ -318,7 +318,7 @@ FileExistsOverwriteExisting=覆蓋已存在的文件(&O)
 FileExistsKeepExisting=保留現有的文件(&K)
 FileExistsOverwriteOrKeepAll=爲所有衝突文件執行此操作(&D)
 ExistingFileNewerSelectAction=選擇操作
-ExistingFileNewer2=現有的文件比安裝程序將要安裝的文件還要新。
+ExistingFileNewer2=現有的文件比安裝軟體將要安裝的文件還要新。
 ExistingFileNewerOverwriteExisting=覆蓋已存在的文件(&O)
 ExistingFileNewerKeepExisting=保留現有的文件(&K) (推薦)
 ExistingFileNewerOverwriteOrKeepAll=爲所有衝突文件執行此操作(&D)
@@ -345,15 +345,15 @@ UninstallDisplayNameMarkCurrentUser=當前用戶
 
 ; *** 安裝後錯誤
 ErrorOpeningReadme=嚐試打開自述文件時出錯。
-ErrorRestartingComputer=安裝程序無法重啟電腦，請手動重啟。
+ErrorRestartingComputer=安裝軟體無法重啟電腦，請手動重啟。
 
 ; *** 卸載消息
 UninstallNotFound=文件“%1”不存在。無法卸載。
 UninstallOpenError=文件“%1”不能被打開。無法卸載。
-UninstallUnsupportedVer=此版本的卸載程序無法識別卸載日誌文件“%1”的格式。無法卸載
+UninstallUnsupportedVer=此版本的卸載軟體無法識別卸載日誌文件“%1”的格式。無法卸載
 UninstallUnknownEntry=卸載日誌中遇到一個未知條目 (%1)
 ConfirmUninstall=您確認要完全移除 %1 及其所有組件嗎？
-UninstallOnlyOnWin64=僅允許在 64 位 Windows 中卸載此程序。
+UninstallOnlyOnWin64=僅允許在 64 位 Windows 中卸載此軟體。
 OnlyAdminCanUninstall=僅使用管理員權限的用戶能完成此卸載。
 UninstallStatusLabel=正在從您的電腦中移除 %1，請稍候。
 UninstalledAll=已順利從您的電腦中移除 %1。
@@ -363,7 +363,7 @@ UninstallDataCorrupted=文件“%1”已損壞。無法卸載
 
 ; *** 卸載狀態消息
 ConfirmDeleteSharedFileTitle=刪除共享的文件嗎？
-ConfirmDeleteSharedFile2=繫統表示下列共享的文件已不有其他程序使用。您希望卸載程序刪除這些共享的文件嗎？%n%n如果刪除這些文件，但仍有程序在使用這些文件，則這些程序可能出現異常。如果您不能確定，請選擇“否”，在繫統中保留這些文件以免引髮問題。
+ConfirmDeleteSharedFile2=繫統表示下列共享的文件已不有其他軟體使用。您希望卸載軟體刪除這些共享的文件嗎？%n%n如果刪除這些文件，但仍有軟體在使用這些文件，則這些軟體可能出現異常。如果您不能確定，請選擇“否”，在繫統中保留這些文件以免引髮問題。
 SharedFileNameLabel=文件名：
 SharedFileLocationLabel=位置：
 WizardUninstalling=卸載狀態
